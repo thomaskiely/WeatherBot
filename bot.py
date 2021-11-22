@@ -54,7 +54,7 @@ def kelvinToFarenHeit(kelvinTemp):
 
 
 def getWeather(locationString):
-    myKey = "37b834df06bbdc5c9c6e4c8449a3e0af"
+    myKey = "KEY"
 
     baseWeather = "https://api.openweathermap.org/data/2.5/weather?"
 
@@ -92,7 +92,7 @@ def getWeather(locationString):
     
 
 
-client.run('OTA1MTM4MzQ4MDA2NDQ1MTE3.YYFtxg.y3oqsj6d94ZJ24OcQzn8-9oGSwg')
+client.run('KEY')
 
 
 
